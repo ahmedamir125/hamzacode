@@ -18,7 +18,7 @@ jobs:
     - name: extract Ngrok File ya mtnake.
       run: Expand-Archive ngrok.zip
     - name: Connect To Ngrok ya ksmk.
-      run: .\ngrok\ngrok.exe authtoken 1ufp3SmiU6rLQ6rpb1PvuHdLJzk_7vHZKPwHmBqaLFUd2a7xQ
+      run: .\ngrok\ngrok.exe authtoken 1ufpjfHimUGk4dbVX5D4q8sQyK3_4eMAVSZyNbFP3PFW9SbNz
     - name: Making RDP ♥.
       run: | 
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
